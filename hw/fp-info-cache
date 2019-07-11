@@ -1,4 +1,4 @@
-187786906147112
+198740366946112
 footprints
 1-1825027-1
 
@@ -91,6 +91,13 @@ footprints
 5
 4
 footprints
+61201021621
+
+
+0
+10
+10
+footprints
 ANT016008LCD1575MA1
 
 
@@ -111,6 +118,13 @@ BGA-96_pitch0.8mm_dia0.4mm
 0
 96
 96
+footprints
+BGA-486_27x27_P0.5mm_14.0x14.0mm
+
+
+0
+487
+487
 footprints
 C0402
 Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)
@@ -371,6 +385,13 @@ FTSH-105-01-F-DV-K
 10
 10
 footprints
+Fuse_1206_3216Metric
+Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+footprints
 HHM22106C1
 
 
@@ -532,6 +553,13 @@ MLPD6
 15
 6
 footprints
+Molex_0430450818
+
+
+0
+10
+10
+footprints
 molex_lte_ant_146200
 
 
@@ -575,6 +603,13 @@ NX2520SA
 4
 footprints
 NX3225
+
+
+0
+4
+4
+footprints
+NX3225SA
 
 
 0
@@ -727,6 +762,20 @@ TFM-110-02-S-D-WT
 0
 22
 21
+footprints
+TI_LMX_SIL
+
+
+0
+9
+9
+footprints
+Torex_XCL22_QFN
+
+
+0
+11
+11
 footprints
 TOSLINK_VERTICAL
 
