@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:daydream-cache
+LIBS:vektor-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 5
 Title "Vektor, Digital Speaker"
-Date "2019-07-11"
-Rev "R1"
+Date "2019-07-29"
+Rev "R2"
 Comp "Jonas Persson"
 Comment1 "jonpe960@gmail.com"
 Comment2 ""
@@ -294,38 +294,38 @@ F 7 "120 Ohm @ 100MHz" H 10750 4900 39  0000 C CNN "Impedance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitors_murata_GRM:C0603_1n1_50Vdc_X7R C16
+L capacitors_murata_GRM:C0603_1n2_50Vdc_C0G C16
 U 1 1 5C0E56CD
 P 11500 5300
 AR Path="/5C0E2AE6/5C0E56CD" Ref="C16"  Part="1" 
 AR Path="/5C1B0AF4/5C0E56CD" Ref="C34"  Part="1" 
 AR Path="/5C1B0AF7/5C0E56CD" Ref="C52"  Part="1" 
 F 0 "C16" H 11615 5338 39  0000 L CNN
-F 1 "C0603_1n1_50Vdc_X7R" H 11506 5215 40  0001 L CNN
+F 1 "C0603_1n2_50Vdc_C0G" H 11506 5215 40  0001 L CNN
 F 2 "C0603" H 11538 5150 30  0001 C CNN
 F 3 "" H 11500 5300 60  0000 C CNN
-F 4 "1100pF, 50Vdc, ±5%, X7R" H 11600 5500 60  0001 C CNN "Description"
-F 5 "GRM188R71H112JA01" H 11600 5500 60  0001 C CNN "Part Number"
+F 4 "1200pF, 50Vdc, +/-5%, C0G" H 11600 5500 60  0001 C CNN "Description"
+F 5 "GRM1885C1H122JA01" H 11600 5500 60  0001 C CNN "Part Number"
 F 6 "Murata" H 11600 5500 60  0001 C CNN "Manufacturer"
-F 7 "1100pF" H 11615 5263 39  0000 L CNN "Capacitance"
+F 7 "1200pF" H 11615 5263 39  0000 L CNN "Capacitance"
 	1    11500 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitors_murata_GRM:C0603_1n1_50Vdc_X7R C18
+L capacitors_murata_GRM:C0603_1n2_50Vdc_C0G C18
 U 1 1 5C0E5737
 P 12000 5300
 AR Path="/5C0E2AE6/5C0E5737" Ref="C18"  Part="1" 
 AR Path="/5C1B0AF4/5C0E5737" Ref="C36"  Part="1" 
 AR Path="/5C1B0AF7/5C0E5737" Ref="C54"  Part="1" 
 F 0 "C18" H 12115 5338 39  0000 L CNN
-F 1 "C0603_1n1_50Vdc_X7R" H 12006 5215 40  0001 L CNN
+F 1 "C0603_1n2_50Vdc_C0G" H 12006 5215 40  0001 L CNN
 F 2 "C0603" H 12038 5150 30  0001 C CNN
 F 3 "" H 12000 5300 60  0000 C CNN
-F 4 "1100pF, 50Vdc, ±5%, X7R" H 12100 5500 60  0001 C CNN "Description"
-F 5 "GRM188R71H112JA01" H 12100 5500 60  0001 C CNN "Part Number"
+F 4 "1200pF, 50Vdc, +/-5%, C0G" H 12100 5500 60  0001 C CNN "Description"
+F 5 "GRM1885C1H122JA01" H 12100 5500 60  0001 C CNN "Part Number"
 F 6 "Murata" H 12100 5500 60  0001 C CNN "Manufacturer"
-F 7 "1100pF" H 12115 5263 39  0000 L CNN "Capacitance"
+F 7 "1200pF" H 12115 5263 39  0000 L CNN "Capacitance"
 	1    12000 5300
 	1    0    0    -1  
 $EndComp

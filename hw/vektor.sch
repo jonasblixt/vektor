@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:daydream-cache
+LIBS:vektor-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 5
 Title "Vektor, Digital Speaker"
-Date "2019-07-11"
-Rev "R1"
+Date "2019-07-29"
+Rev "R2"
 Comp "Jonas Persson"
 Comment1 "jonpe960@gmail.com"
 Comment2 ""
@@ -682,7 +682,7 @@ F 7 "390" V 3541 10400 39  0000 C CNN "Resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L capacitors_murata_GRM:C0603_47p_50Vdc_C0G_2 C96
+L capacitors_murata_GRM:C0603_47p_100Vdc_C0G C96
 U 1 1 5D2453F9
 P 3650 10000
 F 0 "C96" V 3422 10000 39  0000 C CNN
@@ -1251,15 +1251,15 @@ F 7 "10uF" H 6965 1413 39  0000 L CNN "Capacitance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitors_murata_GRM:C0603_18p_50Vdc_C0G_2 C102
+L capacitors_murata_GRM:C0603_18p_100Vdc_C0G C102
 U 1 1 5D3A38A6
 P 6400 1450
 F 0 "C102" H 6515 1488 39  0000 L CNN
-F 1 "C0603_18p_50Vdc_C0G_2" H 6406 1365 40  0001 L CNN
+F 1 "C0603_18p_100Vdc_C0G" H 6406 1365 40  0001 L CNN
 F 2 "C0603" H 6438 1300 30  0001 C CNN
 F 3 "" H 6400 1450 60  0000 C CNN
-F 4 "18pF, 50Vdc, ±2%, C0G" H 6500 1650 60  0001 C CNN "Description"
-F 5 "GRM1885C1H180GA01" H 6500 1650 60  0001 C CNN "Part Number"
+F 4 "18pF, 100Vdc, +/-5%, C0G" H 6500 1650 60  0001 C CNN "Description"
+F 5 "GCM1885C2A180JA16" H 6500 1650 60  0001 C CNN "Part Number"
 F 6 "Murata" H 6500 1650 60  0001 C CNN "Manufacturer"
 F 7 "18pF" H 6515 1413 39  0000 L CNN "Capacitance"
 	1    6400 1450
@@ -1417,14 +1417,14 @@ Wire Wire Line
 Wire Wire Line
 	4200 1150 4300 1150
 $Comp
-L capacitors_murata_GRM:C0805_10u_25Vdc_X7R C95
+L capacitors_murata_GRM:C0805_10u_25Vdc_X7R(Murata) C95
 U 1 1 5D46D3E2
 P 3350 1800
 F 0 "C95" H 3465 1838 39  0000 L CNN
-F 1 "C0805_10u_25Vdc_X7R" H 3356 1715 40  0001 L CNN
+F 1 "C0805_10u_25Vdc_X7R(Murata)" H 3356 1715 40  0001 L CNN
 F 2 "C0805" H 3388 1650 30  0001 C CNN
 F 3 "" H 3350 1800 60  0000 C CNN
-F 4 "10uF, 25Vdc, ±10%, X7R" H 3450 2000 60  0001 C CNN "Description"
+F 4 "10uF, 25Vdc, +/-10%, X7R(Murata)" H 3450 2000 60  0001 C CNN "Description"
 F 5 "GRM21BZ71E106KE15" H 3450 2000 60  0001 C CNN "Part Number"
 F 6 "Murata" H 3450 2000 60  0001 C CNN "Manufacturer"
 F 7 "10uF" H 3465 1763 39  0000 L CNN "Capacitance"
@@ -1432,7 +1432,7 @@ F 7 "10uF" H 3465 1763 39  0000 L CNN "Capacitance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitors_murata_GRM:C0805_100n_25Vdc_X7R C97
+L capacitors_murata_GRM:C0805_100n_50Vdc_X7R C97
 U 1 1 5D46EA00
 P 3750 1800
 F 0 "C97" H 3865 1838 39  0000 L CNN
@@ -1520,14 +1520,14 @@ F 7 "4.7µH" H 1550 1666 39  0000 C CNN "Inductance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitors_murata_GRM:C0805_10u_25Vdc_X7R C84
+L capacitors_murata_GRM:C0805_10u_25Vdc_X7R(Murata) C84
 U 1 1 5D572CF0
 P 1200 1800
 F 0 "C84" H 1315 1838 39  0000 L CNN
-F 1 "C0805_10u_25Vdc_X7R" H 1206 1715 40  0001 L CNN
+F 1 "C0805_10u_25Vdc_X7R(Murata)" H 1206 1715 40  0001 L CNN
 F 2 "C0805" H 1238 1650 30  0001 C CNN
 F 3 "" H 1200 1800 60  0000 C CNN
-F 4 "10uF, 25Vdc, ±10%, X7R" H 1300 2000 60  0001 C CNN "Description"
+F 4 "10uF, 25Vdc, +/-10%, X7R(Murata)" H 1300 2000 60  0001 C CNN "Description"
 F 5 "GRM21BZ71E106KE15" H 1300 2000 60  0001 C CNN "Part Number"
 F 6 "Murata" H 1300 2000 60  0001 C CNN "Manufacturer"
 F 7 "10uF" H 1315 1763 39  0000 L CNN "Capacitance"
@@ -1748,15 +1748,15 @@ F 7 "82.5k" H 13871 2213 39  0000 L CNN "Resistance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitors_murata_GRM:C0603_470p_50Vdc_C0G_2 C111
+L capacitors_murata_GRM:C0603_470p_100Vdc_C0G C111
 U 1 1 5D6C71EB
 P 14200 2250
 F 0 "C111" H 14315 2288 39  0000 L CNN
-F 1 "C0603_470p_50Vdc_C0G_2" H 14206 2165 40  0001 L CNN
+F 1 "C0603_470p_100Vdc_C0G" H 14206 2165 40  0001 L CNN
 F 2 "C0603" H 14238 2100 30  0001 C CNN
 F 3 "" H 14200 2250 60  0000 C CNN
-F 4 "470pF, 50Vdc, ±2%, C0G" H 14300 2450 60  0001 C CNN "Description"
-F 5 "GRM1885C1H471GA01" H 14300 2450 60  0001 C CNN "Part Number"
+F 4 "470pF, 100Vdc, +/-5%, C0G" H 14300 2450 60  0001 C CNN "Description"
+F 5 "GCM1885C2A471JA16" H 14300 2450 60  0001 C CNN "Part Number"
 F 6 "Murata" H 14300 2450 60  0001 C CNN "Manufacturer"
 F 7 "470pF" H 14315 2213 39  0000 L CNN "Capacitance"
 	1    14200 2250
@@ -1984,15 +1984,15 @@ $EndComp
 Wire Wire Line
 	11450 1750 11450 1700
 $Comp
-L capacitors_murata_GRM:C0603_470p_50Vdc_C0G_2 C107
+L capacitors_murata_GRM:C0603_470p_100Vdc_C0G C107
 U 1 1 5D79AD92
 P 10300 2250
 F 0 "C107" H 10415 2288 39  0000 L CNN
-F 1 "C0603_470p_50Vdc_C0G_2" H 10306 2165 40  0001 L CNN
+F 1 "C0603_470p_100Vdc_C0G" H 10306 2165 40  0001 L CNN
 F 2 "C0603" H 10338 2100 30  0001 C CNN
 F 3 "" H 10300 2250 60  0000 C CNN
-F 4 "470pF, 50Vdc, ±2%, C0G" H 10400 2450 60  0001 C CNN "Description"
-F 5 "GRM1885C1H471GA01" H 10400 2450 60  0001 C CNN "Part Number"
+F 4 "470pF, 100Vdc, +/-5%, C0G" H 10400 2450 60  0001 C CNN "Description"
+F 5 "GCM1885C2A471JA16" H 10400 2450 60  0001 C CNN "Part Number"
 F 6 "Murata" H 10400 2450 60  0001 C CNN "Manufacturer"
 F 7 "470pF" H 10415 2213 39  0000 L CNN "Capacitance"
 	1    10300 2250

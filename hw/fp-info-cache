@@ -1,4 +1,4 @@
-198759603129112
+226900194268112
 footprints
 1-1825027-1
 
@@ -118,6 +118,13 @@ BGA-96_pitch0.8mm_dia0.4mm
 0
 96
 96
+footprints
+BGA-200_12x22_10.0x14.5mm
+
+
+0
+200
+200
 footprints
 BGA-486_27x27_P0.5mm_14.0x14.0mm
 
@@ -315,6 +322,27 @@ DCU8_0.5mm
 8
 8
 footprints
+DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm
+DFN, 6 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-dfn/(DCB6)%20DFN%2005-08-1715%20Rev%20A.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+DFN DFN_QFN
+0
+11
+7
+footprints
+DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm
+8-Lead Plastic Dual Flat, No Lead Package (8MA2) - 2x3x0.6 mm Body (http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf)
+DFN 0.5
+0
+13
+9
+footprints
+DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm
+DD Package; 8-Lead Plastic DFN (3mm x 3mm) (see Linear Technology DFN_8_05-08-1698.pdf)
+DFN 0.5
+0
+13
+9
+footprints
 DFN-8-1EP_6x5mm_P1.27mm_EP4x4mm
 DD Package; 8-Lead Plastic DFN (6mm x 5mm) (see http://www.everspin.com/file/236/download)
 dfn 
@@ -328,6 +356,27 @@ DFN 0.5
 0
 8
 8
+footprints
+DFN-12-1EP_3x4mm_P0.5mm_EP1.7x3.3mm
+DE/UE Package; 12-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_12_05-08-1695.pdf)
+DFN 0.5
+0
+21
+13
+footprints
+DFN-16-1EP_3x5mm_P0.5mm_EP1.66x4.4mm
+DHC Package; 16-Lead Plastic DFN (5mm x 3mm) (see Linear Technology DFN_16_05-08-1706.pdf)
+DFN 0.5
+0
+27
+17
+footprints
+DFN-16-1EP_4x5mm_P0.5mm_EP2.44x4.34mm
+DHD Package; 16-Lead Plastic DFN (5mm x 4mm) (see Linear Technology 05081707_A_DHD16.pdf)
+DFN 0.5
+0
+25
+17
 footprints
 DPX1625
 
@@ -349,6 +398,13 @@ DSBGA15
 0
 15
 15
+footprints
+D_SMB
+Diode SMB (DO-214AA)
+Diode SMB (DO-214AA)
+0
+2
+2
 footprints
 Ethernet_trafo_so16w
 Module CMS SOJ 16 pins tres large
@@ -637,6 +693,13 @@ QFN 0.65
 20
 17
 footprints
+QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm
+QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=283), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+38
+29
+footprints
 QFN-32-1EP_5x5mm_Pitch0.5mm
 UH Package; 32-Lead Plastic QFN (5mm x 5mm); (see Linear Technology QFN_32_05-08-1693.pdf)
 QFN 0.5
@@ -650,6 +713,13 @@ QFN-0.5 36SQFN-3706-6x6B
 0
 53
 37
+footprints
+QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/60001477A.pdf (page 1083)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+74
+65
 footprints
 R-PWSON-N12
 
@@ -721,6 +791,13 @@ SMD_HDR_8
 8
 8
 footprints
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+footprints
 SOT-23-5
 5-pin SOT23 package
 SOT-23-5
@@ -735,6 +812,13 @@ SOT-23-6
 6
 6
 footprints
+SOT-353_SC-70-5
+SOT-353, SC-70-5
+SOT-353 SC-70-5
+0
+5
+5
+footprints
 SOT-363_SC-70-6
 SOT-363, SC-70-6
 SOT-363 SC-70-6
@@ -748,6 +832,13 @@ STING_R1
 0
 0
 0
+footprints
+Texas_S-PVQFN-N16_EP2.7x2.7mm
+QFN, 16 Pin (http://www.ti.com/lit/ds/symlink/msp430g2001.pdf#page=43), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+26
+17
 footprints
 TFM-105-02-S-D-WT
 
@@ -769,6 +860,13 @@ TI_LMX_SIL
 0
 9
 9
+footprints
+TO-277A
+Thermal enhanced ultra thin SMD package; 3 leads; body: 5.8 x 4.3 x 0.78 mm
+TO-277A SOT-1289
+0
+12
+3
 footprints
 Torex_XCL22_QFN
 
@@ -798,6 +896,13 @@ TSOC6
 6
 6
 footprints
+TSOP-I-48_18.4x12mm_P0.5mm
+TSOP I, 32 pins, 18.4x8mm body (https://www.micron.com/~/media/documents/products/technical-note/nor-flash/tn1225_land_pad_design.pdf)
+TSOP I 32
+0
+48
+48
+footprints
 TSOT-6-MK06A
 TSOP-6 MK06A housing 6pin
 
@@ -805,12 +910,26 @@ TSOP-6 MK06A housing 6pin
 6
 6
 footprints
+TSOT-23-5
+5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf
+TSOT-23-5
+0
+5
+5
+footprints
 TSOT-23-6
 6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf
 TSOT-23-6 MK06A TSOT-6
 0
 6
 6
+footprints
+TSSOP-8_3x3mm_P0.65mm
+TSSOP8: plastic thin shrink small outline package; 8 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot505-1_po.pdf)
+SSOP 0.65
+0
+8
+8
 footprints
 uDFN6_EP
 
@@ -860,6 +979,13 @@ VQFN_HR_22
 0
 29
 22
+footprints
+VSSOP-8_2.3x2mm_P0.5mm
+VSSOP-8 2.3x2mm Pitch 0.5mm
+VSSOP-8 2.3x2mm Pitch 0.5mm
+0
+8
+8
 footprints
 WLA.01
 
