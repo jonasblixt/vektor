@@ -1,4 +1,4 @@
-226900194268112
+234564643640112
 footprints
 1-1825027-1
 
@@ -609,6 +609,20 @@ MLPD6
 15
 6
 footprints
+Molex_430450427
+
+
+0
+4
+4
+footprints
+Molex_430450629
+
+
+0
+6
+6
+footprints
 Molex_0430450818
 
 
@@ -671,6 +685,20 @@ NX3225SA
 0
 4
 4
+footprints
+PLR135_T10
+
+
+0
+5
+5
+footprints
+PLT133_T10W
+
+
+0
+5
+5
 footprints
 PowerPAK-1212-8
 8-Lead Plastic Dual Flat, No Lead Package (MF) - 3x3x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
@@ -839,6 +867,13 @@ QFN NoLead
 0
 26
 17
+footprints
+TE_5103310_1
+
+
+0
+10
+10
 footprints
 TFM-105-02-S-D-WT
 
